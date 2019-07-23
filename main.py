@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def show_epoch():
-    return str(time.time())
+    return str(int(time.time()))
 
 
 if __name__ == '__main__':
